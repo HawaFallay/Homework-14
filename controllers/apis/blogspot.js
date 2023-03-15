@@ -21,10 +21,47 @@ blogRouter.post('/', auth, async (req, res) => {
 
 });
 
-blogRouter.put('/:id', auth, async (req, res) =>
+blogRouter.put('/:id', auth, async (req, res) =>{
     const {body, title } = req.body;
-{
+
+    const blob = await Blog.findOne({
+        where: {
+            id: req.params.id,
+        },
+    });
+
+    if (!blog) {
+        res.status(404).end("Blog does not exist");
+        return;
+    }
+
+    await blog.update({
+        title,
+        body,
+    })
+    res.end();
+    console.log("updtated");
 
 })
 
+blogRouter.delete('/:id', auth, async ( req, res) => {
+    const blog = await Blog.findOne({
+        where: {
+            id: req.para.id,
+        },
+    });
+
+    if (!blog) {
+        res.status(404).end("Blog does not exist");
+        return;
+    }
+
+    await blog.destroy({
+        where: {
+            id: req.params.id,
+        },
+    })
+
+    res.end();
+})
 module.exports = blogRouter;
