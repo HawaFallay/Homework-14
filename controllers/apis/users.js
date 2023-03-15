@@ -17,13 +17,17 @@ usersRouter.post('/', async (req, res) => {
     });
 
     if (user) {
-        res.status(409).end("name already exists"):
+        res.status(409).end("name already exists");
         return;
     }
 
     const newUser = await User.create({
         username, 
         password,
+    });
+
+    res.status(200).json({
+        id: newUser.id,
     });
 })
 //Login routes
@@ -45,7 +49,7 @@ usersRouter.post("/login", async (req, res) => {
         return;
     }
 
-    const token = jwt.sign({ id: user.id }, process.env.JWT_KEY), { expiresIn: '1d'});
+    const token = jwt.sign({ id: user.id }, process.env.JWT_KEY, { expiresIn: '1d' });
 
     res.cookie('logintoken', token);
 
