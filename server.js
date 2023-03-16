@@ -7,7 +7,7 @@ const path = require('path');
 
 const sequelize = require('./config/connection');
 
-const mainRouter = require(".controllers");
+const mainRouter = require('.controllers');
 const { sequelize } = require("./sequelize");
 const helpers = require('.utils/helpers');
 

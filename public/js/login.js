@@ -6,7 +6,7 @@ document.getElementById('login-form').addEventListener("submit", (event) => {
     console.log(username, password);
 
     document.getElementById("errors").textContent = "";
-    fetch(("/api/user/login", {
+    fetch("/api/user/login", {
         method: 'POST', 
         headers: {
             'Content-Type' : 'application/json',
