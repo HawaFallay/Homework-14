@@ -1,5 +1,5 @@
 const Sequelize = require("sequelize");
-
+const { createPool } = require('mysql')
 require('dotenv').config();
 let sequelize;
 
