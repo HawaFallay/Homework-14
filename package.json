@@ -19,7 +19,7 @@
   "name": "homework-14",
   "description": "Model-View-Controller (MVC) Challenge: Tech Blog",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/HawaFallay/Homework-14.git"
