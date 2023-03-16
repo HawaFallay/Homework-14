@@ -14,12 +14,12 @@
     "sqlite3": "^5.1.6"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "name": "homework-14",
   "description": "Model-View-Controller (MVC) Challenge: Tech Blog",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/HawaFallay/Homework-14.git"
