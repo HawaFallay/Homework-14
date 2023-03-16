@@ -14,7 +14,7 @@
     "sqlite3": "^5.1.6"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "name": "homework-14",
   "description": "Model-View-Controller (MVC) Challenge: Tech Blog",
