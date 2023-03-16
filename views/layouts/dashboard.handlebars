@@ -1,0 +1,19 @@
+<div class="tech-header">
+    <div class="dashboard-title">
+        Your Dashboard
+    </div>
+</div>
+
+<div>
+    {{#each blogs a |blog|}}
+    <div class="dash-blog-header">
+        <a style="text-decoration: none;" href="/updateblog/{{blog.id}}">
+            <span class="dash-title">{{blog.title}}</span>
+            <span class="blog-date">{{newDate.blog.date}}</span>
+        </a>
+    </div>
+    {{each}}
+</div>
+<div class="center">
+    <a class="create-btn" style="text-decoration: none;" href="/createblog">New Post</a>
+</div>

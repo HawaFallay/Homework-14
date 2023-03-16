@@ -1,0 +1,28 @@
+<section>
+    <div class="tech-header">
+        <div class="tech-title">
+            The Tech Blog
+        </div>
+    </div>
+    <div>
+        {{#blogs}}
+    <div>
+    <a style="text-decoration: none" href="commments/{{id}}">
+    <div class="blog-header">
+        <span class="titele">{{title}}</span>
+        <span class="username">Author {{user.username}} on {{newDate date}}</span>
+    </div>
+    <div class="blog=body">{{body}}</div>
+    </a>
+    </div>
+
+    {{#comments}}
+    <div class="comment-header"></div>
+    <div class="comment-box">
+        <div class="comment-content">{{body}}</div>
+        <span>{{user.username}}, </span>
+        <span>{{newDate date}}</span>
+    </div>
+    {{/commments}}
+    {{/blogs}}
+</section>
