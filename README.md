@@ -15,7 +15,7 @@ and opinions.
  # TABLE OF CONTENTS
 
 - [INSTALLATION](#installation)
-- [LINK](#link)
+- [LINKS](#links)
 - [QUESTIONS](#questions)
 
 # INSTALLATION
@@ -26,6 +26,9 @@ Next, install packages
 # LINK
 
 GitHub Repository: https://github.com/HawaFallay/Homework-14
+
+Heroku: https://git.heroku.com/homework-14-tech-blog.git
+
 # QUESTIONS
 
 Link to my Github where contrubtions are welcome <3
