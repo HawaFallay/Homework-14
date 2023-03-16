@@ -5,7 +5,7 @@
     border-radius: 5px;
     width: auto;
     padding: 5px, 10px, 5px, 10px;
-    background-color: white;
+    background-color: rgb(44, 44, 44);
     color: plum;
     box-shadow: 10px, 10px, 20px, rgb(44, 44, 44);
 }

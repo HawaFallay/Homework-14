@@ -1,8 +1,8 @@
-const { Router } = require("express");
+import { Router } from './controll/controllers';
 
-const usersRouter = require('./users');
-const blogRouter = require('./blogpost');
-const commentRouter = require('./comments');
+import usersRouter from './users';
+import blogRouter from './blogpost';
+import commentRouter from './comments';
 
 const apiRouter = new Router();
 
