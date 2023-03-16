@@ -2,5 +2,77 @@
     font-size: 30px;
     font-weight: bold;
     border: 1px solid;
-    border
+    border-radius: 5px;
+    width: auto;
+    padding: 5px, 10px, 5px, 10px;
+    background-color: white;
+    color: plum;
+    box-shadow: 10px, 10px, 20px, rgb(44, 44, 44);
+}
+
+.blog-header{
+    border: 3px solid plum;
+    margin: 5px, 20px, 0px, 20px;
+    padding: 5px, 15px, 5px, 15px;
+    background-color: plum;
+    color: white;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.username {
+    float: right;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.blog-date {
+    float: right;
+    font-size: 15px;
+    margin-top: 5px;
+    color: white;
+}
+
+.blog-body {
+    border: 3px solid plum;
+    margin: 0px, 20px, 0px, 20px;
+    padding: 15px;
+}
+
+.comment-header {
+    height: 25px;
+    border: 3px, solid plum;
+    margin: 5px, 20px, 0px, 20px;
+    padding: 5px, 15px, 5px, 15px;
+    background-color: plum;
+}
+
+.comment-box {
+    border: 3px solid plum;
+    margin: 0px, 20px, 0px, 20px;
+    padding: 15px;
+}
+
+.comment-title {
+    margin-left: 5px;
+}
+
+.comment-body {
+    height: 50px;
+    width: 93.5%;
+    padding: 15px;
+    margin: 5px, 5px, 5px, 5px;
+    border: 1px solid rgb(129, 31, 129);
+}
+
+.comment-btn {
+    width: 100%;
+    font-size: 18px;
+    padding: 5px, 0px, 5px, 0px;
+    margin-bottom: 5px;
+    border-radius: rgb(27, 167, 151);
+    color: white;
 }
