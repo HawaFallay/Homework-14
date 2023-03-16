@@ -1,8 +1,8 @@
-import { Router } from './controll/controllers';
+const { Router } = requie("express");
 
-import usersRouter from './users';
-import blogRouter from './blogpost';
-import commentRouter from './comments';
+const usersRouter = require('./users');
+const blogRouter = require('./blogpost');
+const commentRouter = require('./comments');
 
 const apiRouter = new Router();
 
