@@ -1,6 +1,8 @@
-const Sequelize = require("sequelize");
-const { createPool } = require('mysql')
 require('dotenv').config();
+
+const Sequelize = require('sequelize');
+const { createPool } = require('mysql')
+
 let sequelize;
 
 if (process.env.CLEARDB_DATABASE_URL) {

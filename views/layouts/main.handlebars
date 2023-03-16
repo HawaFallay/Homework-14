@@ -1,6 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        meta charset
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" container="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/{{style}}">
+        <title> DOCUMENT</title>
     </head>
+    <body>
+        <header>
+            <nav class="nav-bar">
+                {{#if isLoggedIn}}
+                <a style="text-decoration: none" class="home-link" href="/homepage">HOME</a>
+                <a style="text-decoration: none" class="login-link" href="/login">LOGIN</a>
+                <a style="text-decoration: none" class="dashnoard-link" href="/Dashboard">DASHBOARD</a>
+
+                {{else}}
+                <a style="text-decoration: none" class="home-link" href="/homepage">HOME</a>
+                <a style="text-decoration: none" class="dashboard-link" href="/Dashboard">DASHBOARD</a>
+                <a style="text-decoration: none" class="login-link" href="/login">HOME</a>
+
+                {{/if}}
+                 <a style="text-decoration: none" class="logout-link" href="/login" id="logout-btn">LOGOUT</a>
+
+            </nav>
+        </header>
+        {{{body}}}
+    </body>
 </html>
+<script src="/public/js/logout.js"></script>
