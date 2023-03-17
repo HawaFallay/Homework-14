@@ -1,4 +1,5 @@
 const { Router } = require('express');
+
 const Blog = require('../..models/blog');
 const auth = require('../..middleware/auth');
 const { sync } = require('../../models/blog');

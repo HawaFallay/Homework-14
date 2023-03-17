@@ -6,16 +6,16 @@
     width: auto;
     padding: 5px, 10px, 5px, 10px;
     background-color: white;
-    color: plum;
+    color: green;
     box-shadow: 10px, 10px, 20px, rgb(44, 44, 44);
 }
 
 .dash-blog-header {
-    border: 3px solid plum;
+    border: 3px solid green;
     border-radius: 5px;
     margin: 5px, 20px, 0px, 20px;
     padding: 5px, 15px, 5px, 15px;
-    background-color: plum;
+    background-color: green;
     color: white;
 }
 
@@ -33,11 +33,11 @@
 }
 
 .create-btn {
-    border: 1px solid plum;
+    border: 1px solid green;
     border-radius: 5px;
     padding: 5px, 10px, 5px, 10px;
     font-size: 25px;
-    background-color: plum;
+    background-color: green;
     color: white;
 }
 

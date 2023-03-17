@@ -6,15 +6,15 @@
     width: auto;
     padding: 5px, 10px, 5px, 10px;
     background-color: white;
-    color: plum;
+    color: green;
     box-shadow: 10px, 10px, 20px, rgb(44, 44, 44);
 }
 
 .blog-header{
-    border: 3px solid plum;
+    border: 3px solid green;
     margin: 5px, 20px, 0px, 20px;
     padding: 5px, 15px, 5px, 15px;
-    background-color: plum;
+    background-color: green;
     color: white;
 }
 
@@ -37,21 +37,21 @@
 }
 
 .blog-body {
-    border: 3px solid plum;
+    border: 3px solid green;
     margin: 0px, 20px, 0px, 20px;
     padding: 15px;
 }
 
 .comment-header {
     height: 25px;
-    border: 3px, solid plum;
+    border: 3px, solid green;
     margin: 5px, 20px, 0px, 20px;
     padding: 5px, 15px, 5px, 15px;
-    background-color: plum;
+    background-color: green;
 }
 
 .comment-box {
-    border: 3px solid plum;
+    border: 3px solid green;
     margin: 0px, 20px, 0px, 20px;
     padding: 15px;
 }
