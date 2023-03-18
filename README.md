@@ -27,7 +27,7 @@ Next, install packages
 
 GitHub Repository: https://github.com/HawaFallay/Homework-14
 
-Heroku: https://git.heroku.com/homework-14-tech-blog.git
+Heroku: [Heroku Deploy](https://homework-14-tech-blog.herokuapp.com/)
 
 # QUESTIONS
 
