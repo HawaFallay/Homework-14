@@ -5,11 +5,6 @@ Model-View-Controller (MVC) Challenge: Tech Blog
 Tech Blog
 
 # DESCRPIPTION
-The purpose of this project is "# Homework-10---Team-Profile-Generator
-# TITLE
-
-Object-Oriented Programming Challenge: Team Profile Generator
-# DESCRPIPTION
 The purpose of this project is to create a CMS-style blog site that can publish articles, blog posts, thoughts,
 and opinions.
  # TABLE OF CONTENTS
